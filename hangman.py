@@ -163,10 +163,10 @@ MAX_TRIEX = 6
 def main():
 
    # print("Enter file path")
-    file_path = r"C:\Users\yn_so\OneDrive\מסמכים\myPython\Hangman\words.txt"
+    file_path = r"" # words file path
     print("Enter index")
     index = int(input())
-    f = open(r"C:\Users\yn_so\OneDrive\מסמכים\myPython\Hangman\openingScreen.txt", 'r')
+    f = open(r"", 'r') # opening screen file path
     print (f.read())
     f.close()
 
@@ -189,11 +189,11 @@ def main():
             break
     print()
     if num_of_tries == 6:
-        f = open(r"C:\Users\yn_so\OneDrive\מסמכים\myPython\Hangman\LooseScreen.txt", 'r')
+        f = open(r"", 'r') # loose screen file path
         print (f.read())
         f.close()
     else:
-        f = open(r"C:\Users\yn_so\OneDrive\מסמכים\myPython\Hangman\WinScreen.txt", 'r')
+        f = open(r"", 'r') # win screen file path
         print (f.read())
         f.close()
 
